@@ -2,8 +2,12 @@
 
 Phase 1 Code
 • Shall set-up the Raspberry Pi and configure it for the project
+o Shall install the Raspbian OS
+o Shall enable SPI and 12C I/O
+o Shall install and setup the SW tools
 • Shall demonstrate basic understanding of Python coding
 o Create simple unit conversion program
+o Need to create detailed requirements for your chosen program
 • Shall demonstrate basic understanding of Raspberry Pi I/O
 o Configure LED on breadboard
 o Blink LED
