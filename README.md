@@ -7,6 +7,14 @@ o Shall enable SPI and 12C I/O
 o Shall install and setup the SW tools
 • Shall demonstrate basic understanding of Python coding
 o Create simple unit conversion program
+o 3 unit conversions types
+  -C to F
+  -Hr to S
+  -m to ft
+o Loops repeatedly until user chooses to quit
+  -Quit by typing "quit" or "q"
+o Prompt the user for input
+  -"Would you like to convert h, s, C, F, m, or ft?"
 o Need to create detailed requirements for your chosen program
 • Shall demonstrate basic understanding of Raspberry Pi I/O
 o Configure LED on breadboard
