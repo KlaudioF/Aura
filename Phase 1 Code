@@ -1,0 +1,31 @@
+Unit Conversion Program
+
+'''
+num1 = input("Enter the value: ")
+unit1 = input("Which unit do you want to convert from: ")
+unit2 = input("Which unit do you want to convert to: ")
+
+if unit1 == "celcius" and unit2 == "fahrenheit":
+  ans = float(num1) * 9/5 + 32
+  print(ans)
+
+elif unit1 == "fahrenheit" and unit2 == "celcius":
+  ans = (float(num1) - 32) * 5/9
+  print(ans)
+
+elif unit1 == "hours" and unit2 == "seconds":
+  ans = float(num1) * 3600
+  print(ans)
+
+elif unit1 == "seconds" and unit2 == "hours":
+  ans = float(num1) / 3600
+  print(ans)
+
+elif unit1 == "meters" and unit2 == "feet":
+  ans = float(num1) * 3.281
+  print(ans)
+
+elif unit1 == "feet" and unit2 == "meters":
+  ans = float(num1) / 3.281
+  print(ans)
+'''
