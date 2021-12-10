@@ -1,4 +1,4 @@
-Unit Conversion Program
+# Unit Conversion Program
 
 '''
 num1 = input("Enter the value: ")
@@ -28,4 +28,46 @@ elif unit1 == "meters" and unit2 == "feet":
 elif unit1 == "feet" and unit2 == "meters":
   ans = float(num1) / 3.281
   print(ans)
+'''
+
+# Graphical Content
+
+'''
+import pygame
+
+pygame.init()
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+RED = (255,0,0)
+GREEN = (0,255,0)
+BLUE = (0,0,255)
+SHADOW=(192,192,192)
+pygame.display.set_mode(size = (0, 0), flags = 0, depth = 0, display = 0)
+scn_width = 640
+scn_height = 480
+screen = pygame.display.set_mode((scn_width, scn_height))
+screen.fill(WHITE)
+pygame.draw.rect(screen, GREEN, [120, 100, 400, 150], 0)
+pygame.draw.circle(screen, BLUE, [35, 35], 30)
+pygame.display.flip()
+
+# pygame.display.set_mode(size=(0,0), flags=0, depth=0, display=0)
+scn_width = 640
+scn_height = 480
+screen=pygame.display.set_mode((scn_width, scn_height))
+
+
+print(pygame.font.get_fonts())
+
+font=pygame.font.SysFont("freesans", 12)
+text=font.render("Game Time!", True, WHITE)
+tw=text.get_width()
+th=text.get_height()
+screen_width=screen.get_width()
+screen_height=screen.get_height()
+screen.blit(text, [0,0])
+screen.blit(text, [screen_width / 2 -tw / 2, screen_height / 2 -th / 2])
+screen.blit(text, [screen_width -tw, screen_height -th])
+
+pygame.display.flip()
 '''
