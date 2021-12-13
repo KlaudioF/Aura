@@ -68,3 +68,17 @@ screen.blit(text, [570,5])
 
 pygame.display.flip()
 '''
+
+# GPIO
+
+'''
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+GPIO.setup(19,GPIO.OUT)
+GPIO.output(19,GPIO.HIGH)
+time.sleep(10)
+GPIO.output(19,GPIO.LOW)
+time.sleep(10)
+'''
