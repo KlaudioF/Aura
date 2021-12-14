@@ -81,4 +81,10 @@ GPIO.output(19,GPIO.HIGH)
 time.sleep(10)
 GPIO.output(19,GPIO.LOW)
 time.sleep(10)
+
+while True: # Run forever
+ GPIO.output(19, GPIO.HIGH) # Turn on
+ sleep(1) # Sleep for 1 second
+ GPIO.output(19, GPIO.LOW) # Turn off
+ sleep(1) # Sleep for 1 second
 '''
