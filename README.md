@@ -35,8 +35,20 @@ or
 
 Phase 1 • Shall set-up the Raspberry Pi and configure it for the project -Done in class already
 
-• Shall demonstrate basic understanding of Python coding o Create simple unit conversion program -Select three unit conversions (Chosen Conversions: Celcius to Fahrenheit, Hours to Seconds, Meters to Feet, and vice-versa.)
+• Shall demonstrate basic understanding of Python coding 
+o Create simple unit conversion program 
+-Select three unit conversions (Chosen Conversions: Celcius to Fahrenheit, Hours to Seconds, Meters to Feet, and vice-versa.)
 
-• Shall demonstrate basic understanding of Raspberry Pi I/O o Configure LED on breadboard -mostly done (we still need to add the LED and resistor) o Blink LED -how often will it blink? -What color will the LED be?
+• Shall demonstrate basic understanding of Raspberry Pi I/O 
+o Configure LED on breadboard 
+-Done 
+o Blink LED -how often will it blink? It will blink every second forever (after staying on for 10 seconds and staying off for 10 seconds).
+-What color will the LED be? The color of the LED will be red.
 
-• Shall demonstrate basic understanding of Pygame o Add a random rectangle to the center of the game screen -Color? position on screen (x,y)? Size? o Add random ball to the top-left corner of the game screen -Color? position on screen (x,y)? Size? o Add text to the top-right of the game screen -What will it say? What font? What color?
+• Shall demonstrate basic understanding of Pygame 
+o Add a random rectangle to the center of the game screen 
+-Color? position on screen (x,y)? Size? Color: Green. Position: [120, 100, 400, 150]. Size: 0
+o Add random ball to the top-left corner of the game screen 
+-Color? position on screen (x,y)? Size? Color: Blue. Position: [35, 35]. Size: 30
+o Add text to the top-right of the game screen 
+-What will it say? What font? What color? What it Says: "Game Time!" Font: Freesans Color: Black
