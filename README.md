@@ -37,7 +37,7 @@ Phase 1 • Shall set-up the Raspberry Pi and configure it for the project -Done
 
 • Shall demonstrate basic understanding of Python coding 
 o Create simple unit conversion program 
--Select three unit conversions (Chosen Conversions: Celcius to Fahrenheit, Hours to Seconds, Meters to Feet, and vice-versa.)
+-Select three unit conversions (Chosen Conversions: Celsius to Fahrenheit, Hours to Seconds, Meters to Feet, and vice-versa.)
 
 • Shall demonstrate basic understanding of Raspberry Pi I/O 
 o Configure LED on breadboard 
