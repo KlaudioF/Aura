@@ -42,8 +42,10 @@ o Create simple unit conversion program
 • Shall demonstrate basic understanding of Raspberry Pi I/O 
 o Configure LED on breadboard 
 -Done 
-o Blink LED -How often will it blink? It will blink every second forever (after staying on for 10 seconds and staying off for 10 seconds).
+o Blink LED 
+-How often will it blink? It will blink every second forever (after staying on for 10 seconds and staying off for 10 seconds).
 -What color will the LED be? The color of the LED will be red.
+-What GPIO? GPIO 19
 
 • Shall demonstrate basic understanding of Pygame 
 o Add a random rectangle to the center of the game screen 
